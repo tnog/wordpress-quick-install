@@ -21,7 +21,7 @@ unzip -q latest.zip;
 echo "Fetching WordPress SEO plugin...";
 wget --quiet http://downloads.wordpress.org/plugin/wordpress-seo.1.4.19.zip;
 unzip -q wordpress-seo.1.4.19.zip;
-mv all-in-one-seo-pack wordpress/wp-content/plugins/
+mv wordpress-seo wordpress/wp-content/plugins/
 
 # Sitemap Generator
 echo "Fetching Google Sitemap Generator plugin...";
@@ -33,13 +33,13 @@ mv google-sitemap-generator wordpress/wp-content/plugins/
 echo "Fetching Better WP Security plugin...";
 wget --quiet http://downloads.wordpress.org/plugin/better-wp-security.3.5.6.zip;
 unzip -q  better-wp-security.3.5.6.zip;
-mv secure-wordpress wordpress/wp-content/plugins/
+mv better-wp-security wordpress/wp-content/plugins/
 
 # Advanced Custom Fields
 echo "Fetching ACF plugin...";
 wget --quiet http://downloads.wordpress.org/plugin/advanced-custom-fields.zip;
 unzip -q  advanced-custom-fields.zip;
-mv hierarchy wordpress/wp-content/plugins/
+mv advanced-custom-fields wordpress/wp-content/plugins/
 
 # Image Widgets (Why isn't this standard?)
 echo "Fetching Image Widget plugin...";
