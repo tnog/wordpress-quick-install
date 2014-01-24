@@ -42,10 +42,10 @@ unzip -q  advanced-custom-fields.zip;
 mv advanced-custom-fields wordpress/wp-content/plugins/
 
 # Image Widgets (Why isn't this standard?)
-echo "Fetching Image Widget plugin...";
-wget --quiet http://downloads.wordpress.org/plugin/image-widget.zip;
-unzip -q  image-widget.zip;
-mv image-widget wordpress/wp-content/plugins/
+#echo "Fetching Image Widget plugin...";
+#wget --quiet http://downloads.wordpress.org/plugin/image-widget.zip;
+#unzip -q  image-widget.zip;
+#mv image-widget wordpress/wp-content/plugins/
 
 # W3 Total Cache 
 echo "Fetching W3 Total Cache...";
@@ -80,10 +80,10 @@ unzip -q simple-page-ordering.zip
 mv simple-page-ordering wordpress/wp-content/plugins/
 
 # FeedWordPress
-echo "FeedWordPress...";
-wget --quiet http://downloads.wordpress.org/plugin/feedwordpress.zip
-unzip -q feedwordpress.zip
-mv feedwordpress wordpress/wp-content/plugins/
+#echo "FeedWordPress...";
+#wget --quiet http://downloads.wordpress.org/plugin/feedwordpress.zip
+#unzip -q feedwordpress.zip
+#mv feedwordpress wordpress/wp-content/plugins/
 
 # BackupWPup
 echo "BackupWPup...";
