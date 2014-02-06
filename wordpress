@@ -53,11 +53,11 @@ wget --quiet http://downloads.wordpress.org/plugin/w3-total-cache.zip
 unzip -q  w3-total-cache.zip;
 mv w3-total-cache wordpress/wp-content/plugins/
 
-# Register Plus Redux (Good for membership-style sites)
-# echo "Fetching Register Plus Redux...";
-# wget --quiet http://downloads.wordpress.org/plugin/register-plus-redux.zip
-# unzip -q register-plus-redux.zip
-# mv register-plus-redux wordpress/wp-content/plugins/
+# Jetpack
+echo "Fetching Jetpack...";
+wget --quiet http://downloads.wordpress.org/plugin/jetpack.2.8.zip
+unzip -q jetpack.2.8.zip
+mv jetpack wordpress/wp-content/plugins/
 
 # Regenerate Thumbnails (good for when you need to make custom sizes)
 echo "Fetching Regenerate Thumbnails...";
@@ -78,12 +78,6 @@ echo "Fetching Simple Page Ordering...";
 wget --quiet http://downloads.wordpress.org/plugin/simple-page-ordering.zip
 unzip -q simple-page-ordering.zip
 mv simple-page-ordering wordpress/wp-content/plugins/
-
-# FeedWordPress
-#echo "FeedWordPress...";
-#wget --quiet http://downloads.wordpress.org/plugin/feedwordpress.zip
-#unzip -q feedwordpress.zip
-#mv feedwordpress wordpress/wp-content/plugins/
 
 # BackupWPup
 echo "BackupWPup...";
