@@ -18,22 +18,16 @@ wget --quiet http://wordpress.org/latest.zip;
 unzip -q latest.zip;
 
 # WordPress SEO
-echo "Fetching WordPress SEO plugin...";
-wget --quiet http://downloads.wordpress.org/plugin/wordpress-seo.1.4.19.zip;
-unzip -q wordpress-seo.1.4.19.zip;
-mv wordpress-seo wordpress/wp-content/plugins/
-
-# Sitemap Generator
-echo "Fetching Google Sitemap Generator plugin...";
-wget --quiet http://downloads.wordpress.org/plugin/google-sitemap-generator.zip;	
-unzip -q  google-sitemap-generator.zip;	
-mv google-sitemap-generator wordpress/wp-content/plugins/
+#echo "Fetching WordPress SEO plugin...";
+#wget --quiet http://downloads.wordpress.org/plugin/wordpress-seo.1.4.19.zip;
+#unzip -q wordpress-seo.1.4.19.zip;
+#mv wordpress-seo wordpress/wp-content/plugins/
 
 # Better WP Security
-echo "Fetching Better WP Security plugin...";
-wget --quiet http://downloads.wordpress.org/plugin/better-wp-security.3.5.6.zip;
-unzip -q  better-wp-security.3.5.6.zip;
-mv better-wp-security wordpress/wp-content/plugins/
+#echo "Fetching Better WP Security plugin...";
+#wget --quiet http://downloads.wordpress.org/plugin/better-wp-security.3.5.6.zip;
+#unzip -q  better-wp-security.3.5.6.zip;
+#mv better-wp-security wordpress/wp-content/plugins/
 
 # Advanced Custom Fields
 echo "Fetching ACF plugin...";
@@ -48,10 +42,10 @@ mv advanced-custom-fields wordpress/wp-content/plugins/
 #mv image-widget wordpress/wp-content/plugins/
 
 # W3 Total Cache 
-echo "Fetching W3 Total Cache...";
-wget --quiet http://downloads.wordpress.org/plugin/w3-total-cache.zip
-unzip -q  w3-total-cache.zip;
-mv w3-total-cache wordpress/wp-content/plugins/
+#echo "Fetching W3 Total Cache...";
+#wget --quiet http://downloads.wordpress.org/plugin/w3-total-cache.zip
+#unzip -q  w3-total-cache.zip;
+#mv w3-total-cache wordpress/wp-content/plugins/
 
 # Jetpack
 echo "Fetching Jetpack...";
@@ -60,30 +54,30 @@ unzip -q jetpack.2.8.zip
 mv jetpack wordpress/wp-content/plugins/
 
 # Regenerate Thumbnails (good for when you need to make custom sizes)
-echo "Fetching Regenerate Thumbnails...";
-wget --quiet http://downloads.wordpress.org/plugin/regenerate-thumbnails.zip
-unzip -q regenerate-thumbnails.zip
-mv regenerate-thumbnails wordpress/wp-content/plugins/
+#echo "Fetching Regenerate Thumbnails...";
+#wget --quiet http://downloads.wordpress.org/plugin/regenerate-thumbnails.zip
+#unzip -q regenerate-thumbnails.zip
+#mv regenerate-thumbnails wordpress/wp-content/plugins/
 
 
 # WordPress Importer
-echo "Fetching WordPress Importer...";
-wget --quiet http://downloads.wordpress.org/plugin/wordpress-importer.zip
-unzip -q wordpress-importer.zip
-mv wordpress-importer wordpress/wp-content/plugins/
+#echo "Fetching WordPress Importer...";
+#wget --quiet http://downloads.wordpress.org/plugin/wordpress-importer.zip
+#unzip -q wordpress-importer.zip
+#mv wordpress-importer wordpress/wp-content/plugins/
 
 
 # Simple Page Ordering
-echo "Fetching Simple Page Ordering...";
-wget --quiet http://downloads.wordpress.org/plugin/simple-page-ordering.zip
-unzip -q simple-page-ordering.zip
-mv simple-page-ordering wordpress/wp-content/plugins/
+#echo "Fetching Simple Page Ordering...";
+#wget --quiet http://downloads.wordpress.org/plugin/simple-page-ordering.zip
+#unzip -q simple-page-ordering.zip
+#mv simple-page-ordering wordpress/wp-content/plugins/
 
 # BackupWPup
-echo "BackupWPup...";
-wget --quiet http://downloads.wordpress.org/plugin/backwpup.zip
-unzip -q backwpup.zip
-mv backwpup wordpress/wp-content/plugins/
+#echo "BackupWPup...";
+#wget --quiet http://downloads.wordpress.org/plugin/backwpup.zip
+#unzip -q backwpup.zip
+#mv backwpup wordpress/wp-content/plugins/
 
 
 # Cleanup
