@@ -6,7 +6,7 @@
 #		
 # 	To use this script, go to the directory you want to install Wordpress to in the terminal and run this command:
 # 
-# 	curl https://raw.github.com/tnog/wordpress-quick-install/master/wordpress | sh
+# 	curl https://raw.githubusercontent.com/tnog/wordpress-quick-install/master/wordpress | sh
 #
 # 	There you go.
 #
