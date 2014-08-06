@@ -30,10 +30,10 @@ unzip -q latest.zip;
 #mv better-wp-security wordpress/wp-content/plugins/
 
 # Advanced Custom Fields
-echo "Fetching ACF plugin...";
-wget --quiet http://downloads.wordpress.org/plugin/advanced-custom-fields.zip;
-unzip -q  advanced-custom-fields.zip;
-mv advanced-custom-fields wordpress/wp-content/plugins/
+#echo "Fetching ACF plugin...";
+#wget --quiet http://downloads.wordpress.org/plugin/advanced-custom-fields.zip;
+#unzip -q  advanced-custom-fields.zip;
+#mv advanced-custom-fields wordpress/wp-content/plugins/
 
 # Image Widgets (Why isn't this standard?)
 #echo "Fetching Image Widget plugin...";
@@ -48,10 +48,10 @@ mv advanced-custom-fields wordpress/wp-content/plugins/
 #mv w3-total-cache wordpress/wp-content/plugins/
 
 # Jetpack
-echo "Fetching Jetpack...";
-wget --quiet http://downloads.wordpress.org/plugin/jetpack.2.8.zip
-unzip -q jetpack.2.8.zip
-mv jetpack wordpress/wp-content/plugins/
+#echo "Fetching Jetpack...";
+#wget --quiet http://downloads.wordpress.org/plugin/jetpack.2.8.zip
+#unzip -q jetpack.2.8.zip
+#mv jetpack wordpress/wp-content/plugins/
 
 # Regenerate Thumbnails (good for when you need to make custom sizes)
 #echo "Fetching Regenerate Thumbnails...";
